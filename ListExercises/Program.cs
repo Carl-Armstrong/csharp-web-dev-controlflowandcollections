@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ListExercises
 {
@@ -6,7 +7,8 @@ namespace ListExercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Lists!");
+            List<int> nums = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            Console.WriteLine(Class1.sumEven(nums));
         }
     }
 }
